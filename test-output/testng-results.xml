@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="12" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-01T11:42:25 EDT" name="Personal Loan" finished-at="2024-06-01T11:42:26 EDT" duration-ms="165">
+    <groups>
+      <group name="Smoke">
+        <method signature="Test2.Demo1()[pri:0, instance:Demo1.Test2@550ee7e5]" name="Demo1" class="Demo1.Test2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-06-01T11:42:25 EDT" name="Test Personal" finished-at="2024-06-01T11:42:25 EDT" duration-ms="45">
+      <class name="Demo1.Test1">
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:Demo1.Test1@1a4013]" started-at="2024-06-01T11:42:25 EDT" name="bfMethod" finished-at="2024-06-01T11:42:25 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="Demo()[pri:0, instance:Demo1.Test1@1a4013]" started-at="2024-06-01T11:42:25 EDT" name="Demo" finished-at="2024-06-01T11:42:25 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:Demo1.Test1@1a4013]" started-at="2024-06-01T11:42:25 EDT" name="lastexecution" finished-at="2024-06-01T11:42:25 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- Demo1.Test1 -->
+      <class name="Demo1.Test4">
+        <test-method signature="LoginApiCarLoan()[pri:0, instance:Demo1.Test4@5f9b2141]" started-at="2024-06-01T11:42:25 EDT" name="LoginApiCarLoan" finished-at="2024-06-01T11:42:25 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiCarLoan -->
+        <test-method signature="MobileLogincarloan()[pri:0, instance:Demo1.Test4@5f9b2141]" started-at="2024-06-01T11:42:25 EDT" name="MobileLogincarloan" finished-at="2024-06-01T11:42:25 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogincarloan -->
+        <test-method signature="WebloginHomeLoan()[pri:0, instance:Demo1.Test4@5f9b2141]" started-at="2024-06-01T11:42:25 EDT" name="WebloginHomeLoan" finished-at="2024-06-01T11:42:25 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- Demo1.Test4 -->
+      <class name="Demo1.Test2">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:Demo1.Test2@550ee7e5]" started-at="2024-06-01T11:42:25 EDT" name="prerequisite" finished-at="2024-06-01T11:42:25 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="Demo1()[pri:0, instance:Demo1.Test2@550ee7e5]" started-at="2024-06-01T11:42:25 EDT" name="Demo1" finished-at="2024-06-01T11:42:25 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+      </class> <!-- Demo1.Test2 -->
+    </test> <!-- Test Personal -->
+    <test started-at="2024-06-01T11:42:26 EDT" name="Car loan" finished-at="2024-06-01T11:42:26 EDT" duration-ms="35">
+      <class name="Demo1.Test1">
+        <test-method is-config="true" signature="afSuite()[pri:0, instance:Demo1.Test1@1a4013]" started-at="2024-06-01T11:42:26 EDT" name="afSuite" finished-at="2024-06-01T11:42:26 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSuite -->
+      </class> <!-- Demo1.Test1 -->
+      <class name="Demo1.Test3">
+        <test-method is-config="true" signature="bfSuite()[pri:0, instance:Demo1.Test3@73e22a3d]" started-at="2024-06-01T11:42:25 EDT" name="bfSuite" finished-at="2024-06-01T11:42:25 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfSuite -->
+        <test-method signature="LoginApiHomeLoan()[pri:0, instance:Demo1.Test3@73e22a3d]" started-at="2024-06-01T11:42:26 EDT" name="LoginApiHomeLoan" finished-at="2024-06-01T11:42:26 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiHomeLoan -->
+        <test-method signature="WebloginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:Demo1.Test3@73e22a3d]" started-at="2024-06-01T11:42:26 EDT" name="WebloginHomeLoan" finished-at="2024-06-01T11:42:26 EDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'APIkey/username' is required by @Test on method WebloginHomeLoan but has not been marked @Optional or defined
+in C:\Users\bouto\eclipse-workspace\TestNGTutorial\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'APIkey/username' is required by @Test on method WebloginHomeLoan but has not been marked @Optional or defined
+in C:\Users\bouto\eclipse-workspace\TestNGTutorial\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- Demo1.Test3 -->
+    </test> <!-- Car loan -->
+  </suite> <!-- Personal Loan -->
+</testng-results>
